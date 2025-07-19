@@ -14,7 +14,7 @@ const Page = () => {
     const [loading, setLoading] = useState(true);
 
     const fetchBlogData = async () => {
-        const response = await fetch(`http://localhost:5000/getBlog/${id}`, {
+        const response = await fetch(`https://travelguide-you9.onrender.com/getBlog/${id}`, {
             method: 'GET',
         })
         const data = await response.json();
