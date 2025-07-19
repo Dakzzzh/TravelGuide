@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(42, 42, 42);
+    color: white;
+}
+
+.header-wrapper{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+}
+
+.logo-wrapper{
+    padding: 0;
+    margin: 0;
+    position:absolute;
+    top: 10px;
+}
+
+.menu-wrapper{
+    font-family: "Gruppo", sans-serif;
+    font-size: 17px;
+    position: absolute;
+    right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}

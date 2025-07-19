@@ -1,0 +1,119 @@
+.content-wrapper{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    margin-top: 360px;
+    z-index: -1;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+    row-gap: 30%;
+}
+
+.blog-item{
+    background-color: rgb(43, 42, 43, 0.5);
+    height: 450px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 350px;
+    transition: all 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.blog-item p{
+    text-align: left;
+    overflow: hidden;
+    height: 90px;
+    text-overflow:ellipsis;
+    white-space: wrap;
+    mask-image: linear-gradient(180deg, #000 60%, transparent);
+
+}
+.blog-item img{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.blog-item .read-more{
+    text-align: right;
+}
+.blog-item:hover{
+    box-shadow: -11px 9px 0px 1px rgb(196, 185, 251, 0.5);
+    transition: all 0.3s ease;
+}
+
+.blog-list{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 85vw;
+    padding-bottom: 20px;
+}
+
+.page-wrapper{
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+
+.background-div{
+    display: flex;
+    padding: 0;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(84, 84, 84);
+    margin: 0;
+    z-index:-1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-div h1{
+    padding-bottom: 20px;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 3.5em;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.image-class{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 270px;
+}
+
+.description-div{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.invisible-div{
+    height: 250px;
+}
+
+.skeleton-item{
+    margin-left: 6px;
+}
+
+.skeleton-class{
+    left: 50%;
+    transform: translateX(-50%);
+    top: -80px;
+}
