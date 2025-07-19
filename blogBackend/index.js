@@ -32,7 +32,7 @@ const Post = mongoose.models.posts || mongoose.model('posts', postSchema)
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://travelguidefrontend.onrender.com/'
+    origin: '*'
 }));
 
 app.get("/", (req, resp) => {
